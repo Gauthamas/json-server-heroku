@@ -1,9 +1,25 @@
 {
-  "posts":[
+  "user": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "id": 1,
+      "name": "Abhash Anand",
+      "mobile": "9741399554"
+    }
+  ],
+  "sms": [
+    {
+      "id": 1,
+      "user-id": 1,
+      "body": "Your debit card 1234XXXXXXXX5678 has been used to make a purchase of Rs. 400 at AMAZON on 03-Jun-2017",
+      "sender": "AMAZON",
+      "date": "03Jun2017"
+    },
+    {
+      "id": 2,
+      "user-id": 1,
+      "body": "Flipkart has shipped your package and will be delivered by 10 Jun 2017",
+      "sender": "FLIPKART",
+      "date": "03Jun2017"
     }
   ]
 }
